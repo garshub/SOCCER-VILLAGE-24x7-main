@@ -1,6 +1,11 @@
 # Soccer Village 24x7
 
-SER-515 Group Project for Fall 2021
+A web application to schedule Soccer tournaments for different leagues.  
+
+This is a group project for SER-515, Fall 2021.
+
+My responsibilities included Scrum Master and Software Developer (Requirements Gathering, Design and Development, and Testing). 
+I focused mainly on writing the SQL schema, writing RESTful APIs, and integrating with React frontend. 
 
 <h3><u>Team:</u></h3>
 <table>
