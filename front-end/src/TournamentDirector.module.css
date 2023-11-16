@@ -1,0 +1,97 @@
+.tournamentDirectorContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    height: calc(100% - 55px);
+    width: 100%;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAcHCAcHBwoPBwcHBw8ICQcWFREWIiARExMYHCggGBonGxMTITEhJSkrLjMuFx8zODMwNyg5OkIBCgoKDQ0NDg0NDisZFRkrKysrNy0rKystKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKystKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQMH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAERIVGxQf/EABcBAQEBAQAAAAAAAAAAAAAAAAEABQT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6KIOJnqASAEgCKiBKgFACIASogSoCIASoilACIASAEqIqIASKgUoiosQHEzxUClEUkARACQBFRFJACgBEVAlRFJoASKgioilACIASKgSoikgCLFUHEzlEUkARFQKURSQBEAJFQJURUQAkAJFQSURSQAkVBFRFJACgBEVAlkA4meAJKIEqASAIioEiopIAkAEioEqIqIASAEioJKIpIASKgioBIASyEHEzlARACQBJRAlQCQAkARUAkAKAERUCVARACQAkVAlQEgAlRAlkA4WcAEqIpIAiAEgBKiCKgFABKiCNUAkAJAEVEClAJAEQAlRAlQEWKoriZwIpIAiKgUoik0ARACRUCVEVEAKACVQEVAJACQBFRAlQCgBEAJZAOJnCoEioIqIpIASKgioilUARACRUCaoikgCIqBSiBKgIgBIAiogSoBTFUHEz1EVEAJAChUEVEUmgBIqCKgE0AKAERUCVEUkARFQJURSgBEAJFQJZAOFnABKiBKgE0ARVAKUERUAkAJUQRUAkAJAElECVAJAERUCVAJAEmIDiZ6gEgBIAkoBIASAIqihIASAIgoUAEgCIKEoKEgCIk35y1CTKXOgJXOiAKf/2Q==");
+    background-size: cover;
+}
+
+.tournamentDirectorBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 50px 100px;
+    border: 1ch;
+}
+
+.titleDiv {
+    display: flex;
+    align-self: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 25px;
+    color: var(--gray);
+    margin: 20px 0;
+}
+
+.schedulerFormDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.textAlignCenter {
+    color: var(--gray);
+    text-align: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-grey-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tournamentSchedulePopupContainer {
+      padding: 10px;
+    height: 90%;
+    width: 80%;
+    margin-top: 50px;
+    background-color: var(--color-white);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+  }
+
+  .tournamentSchedulePopupBody {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+
+.closeButtonContainer {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallButton {
+    width: 220px;
+    height: 40px;
+    padding: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: var(--gray);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }

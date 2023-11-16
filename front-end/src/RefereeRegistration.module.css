@@ -1,0 +1,169 @@
+.schedulerContainer {
+    display: flex;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAcHCAcHBwoPBwcHBw8ICQcWFREWIiARExMYHCggGBonGxMTITEhJSkrLjMuFx8zODMwNyg5OkIBCgoKDQ0NDg0NDisZFRkrKysrNy0rKystKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKystKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQMH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAERIVGxQf/EABcBAQEBAQAAAAAAAAAAAAAAAAEABQT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6KIOJnqASAEgCKiBKgFACIASogSoCIASoilACIASAEqIqIASKgUoiosQHEzxUClEUkARACQBFRFJACgBEVAlRFJoASKgioilACIASKgSoikgCLFUHEzlEUkARFQKURSQBEAJFQJURUQAkAJFQSURSQAkVBFRFJACgBEVAlkA4meAJKIEqASAIioEiopIAkAEioEqIqIASAEioJKIpIASKgioBIASyEHEzlARACQBJRAlQCQAkARUAkAKAERUCVARACQAkVAlQEgAlRAlkA4WcAEqIpIAiAEgBKiCKgFABKiCNUAkAJAEVEClAJAEQAlRAlQEWKoriZwIpIAiKgUoik0ARACRUCVEVEAKACVQEVAJACQBFRAlQCgBEAJZAOJnCoEioIqIpIASKgioilUARACRUCaoikgCIqBSiBKgIgBIAiogSoBTFUHEz1EVEAJAChUEVEUmgBIqCKgE0AKAERUCVEUkARFQJURSgBEAJFQJZAOFnABKiBKgE0ARVAKUERUAkAJUQRUAkAJAElECVAJAERUCVAJAEmIDiZ6gEgBIAkoBIASAIqihIASAIgoUAEgCIKEoKEgCIk35y1CTKXOgJXOiAKf/2Q==");
+    background-size: cover;
+}
+
+.schedulerFormBodyMajor {
+    display: flex;
+    flex-direction: column;
+    flex: 0.66;
+    margin: 100px;
+    border: 1ch;
+}
+
+.schedulerFormBodyMinor {
+    display: flex;
+    flex-direction: column;
+    flex: 0.33;
+    margin: 100px;
+    border: 1ch;
+}
+
+.titleDiv {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-family: var(--bs-body-font-family);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.schedulerFormDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 0 25px 25px 0;
+}
+
+.inputGroupFull {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0 25px 25px 0px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.mandatoryContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.mandatoryField {
+    font-size: 14px;
+    margin-left: 1%;
+    color: red;
+}
+
+.input {
+    display: content;
+    width: 100%;
+    padding-bottom: 2%;
+    border: none;
+    border-bottom: 1px solid var(--color-mapping-header-border);
+    color: var(--color-black-table-data);
+    font-family: GillSans;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    padding: 10px;
+}
+
+.buttonContainer {
+    display: flex;
+    margin-top: 50px;
+}
+.customExpandableTable {
+    display: flex;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.smallButton {
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.noMargin {
+    margin-top: unset;
+}
+
+.textAlignCenter {
+    color: var(--gray);
+    text-align: center;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-grey-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.refereeSchedulePopupContainer {
+    padding: 10px;
+    height: 90%;
+    width: 80%;
+    margin-top: 50px;
+    background-color: var(--color-white);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.refereeSchedulePopupBody {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.closeButtonContainer {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.smallButton {
+    width: 220px;
+    height: 40px;
+    padding: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: var(--gray);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.label {
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+ 
+  .dropDownStyle {
+    margin-top: 15px;
+  }
+  .ccmDropdownStyle {
+    margin-top: 2%;
+  }
+  .dropDownStyle > div:first-child {
+    position: relative;
+    box-sizing: border-box;
+    line-height: 25px;
+  }
+  
+  .dropDownStyle > div:first-child > div:first-child {
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  
+  .dropDownStyleDisabled > div:first-child > div:first-child {
+    padding-left: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    background-color: transparent;
+  }
+  
+  .dropDownStyle > div:first-child > div:first-child > div:first-child {
+    padding-left: 0;
+    margin-top: -10px;
+  }
+  
+  .dropDownStyle > div:first-child > div:first-child > div:nth-child(2) > span {
+    background-color: transparent;
+  }
+  .noDrop {
+    cursor: no-drop;
+  }
+  

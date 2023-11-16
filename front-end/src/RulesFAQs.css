@@ -1,0 +1,37 @@
+.rulesFAQsContainer {
+    display: flex;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgIBwcHCAcHCAcHBwoPBwcHBw8ICQcWFREWIiARExMYHCggGBonGxMTITEhJSkrLjMuFx8zODMwNyg5OkIBCgoKDQ0NDg0NDisZFRkrKysrNy0rKystKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKystKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQMH/8QAGhABAAIDAQAAAAAAAAAAAAAAAAERIVGxQf/EABcBAQEBAQAAAAAAAAAAAAAAAAEABQT/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6KIOJnqASAEgCKiBKgFACIASogSoCIASoilACIASAEqIqIASKgUoiosQHEzxUClEUkARACQBFRFJACgBEVAlRFJoASKgioilACIASKgSoikgCLFUHEzlEUkARFQKURSQBEAJFQJURUQAkAJFQSURSQAkVBFRFJACgBEVAlkA4meAJKIEqASAIioEiopIAkAEioEqIqIASAEioJKIpIASKgioBIASyEHEzlARACQBJRAlQCQAkARUAkAKAERUCVARACQAkVAlQEgAlRAlkA4WcAEqIpIAiAEgBKiCKgFABKiCNUAkAJAEVEClAJAEQAlRAlQEWKoriZwIpIAiKgUoik0ARACRUCVEVEAKACVQEVAJACQBFRAlQCgBEAJZAOJnCoEioIqIpIASKgioilUARACRUCaoikgCIqBSiBKgIgBIAiogSoBTFUHEz1EVEAJAChUEVEUmgBIqCKgE0AKAERUCVEUkARFQJURSgBEAJFQJZAOFnABKiBKgE0ARVAKUERUAkAJUQRUAkAJAElECVAJAERUCVAJAEmIDiZ6gEgBIAkoBIASAIqihIASAIgoUAEgCIKEoKEgCIk35y1CTKXOgJXOiAKf/2Q==");
+    background-size: cover;
+}
+
+.rulesFAQsBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 100px;
+    border: 1ch;
+}
+
+.partitionContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.partitionTitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.titleLink {
+    margin-right: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.partitionText {
+    text-align: left;
+    margin-bottom: 20px;
+}

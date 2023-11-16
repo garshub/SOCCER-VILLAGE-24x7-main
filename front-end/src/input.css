@@ -1,0 +1,183 @@
+/* eslint-disable-line */
+
+.input-group {
+  position: relative;
+  margin-top: 15px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+}
+
+.input-element {
+  display: block;
+  width: 44%;
+  padding: 0px 10px 0px 5px;
+  border: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(235, 235, 235);
+  font-size: 16px;
+  font-family: var(--bs-body-font-family);
+}
+
+[type="date"] {
+  background: #fff 100% 40% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(images/calendar.svg) 100% 40% no-repeat;
+  border-width: thin;
+  width: 20px;
+  height: 20px;
+}
+
+[type="datetime-local"] {
+  background: white 100% 40% no-repeat;
+}
+
+[type="datetime-local"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  color: black;
+  opacity: 1;
+  display: block;
+  background: url(images/calendar.svg) 100% 40% no-repeat;
+  border-width: thin;
+  width: 20px;
+  height: 20px;
+}
+
+.input-element:focus {
+  outline: none;
+}
+
+.mandatoryField {
+  margin-left: 1%;
+  font-size: 14px;
+  color: red;
+}
+
+/** Label **/
+
+.input-label {
+  position: absolute;
+  top: 10px;
+  pointer-events: none;
+  color: black;
+  font-size: 16px;
+  font-weight: normal;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+  width: 100%;
+}
+
+/* active state */
+
+.input-element:focus ~ .input-label,
+.input-element:valid ~ .input-label {
+  top: -20px;
+  color: grey;
+  font-size: 14px;
+}
+
+/* Bottom State */
+
+.input-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.input-bar:before,
+.input-bar:after {
+  position: absolute;
+  bottom: 1px;
+  width: 0;
+  height: 2px;
+  content: "";
+  background: black;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.input-bar:before {
+  left: 50%;
+}
+
+.input-bar:after {
+  right: 50%;
+}
+
+/* active state */
+
+.input-element:focus ~ .input-bar:before,
+.input-element:focus ~ .input-bar:after {
+  width: 50%;
+}
+
+/** Highlighter **/
+
+.input-highlight {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 100px;
+  height: 60%;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+/* active state */
+
+.input-element:focus ~ .input-highlight {
+  animation: inputHighlighter 0.3s ease;
+  -moz-animation: inputHighlighter 0.3s ease;
+  -webkit-animation: inputHighlighter 0.3s ease;
+}
+
+/** Animations **/
+
+@-webkit-keyframes inputHighlighter {
+  from {
+    background: var(--color-facebook);
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@-moz-keyframes inputHighlighter {
+  from {
+    background: var(--color-facebook);
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+@keyframes inputHighlighter {
+  from {
+    background: var(--color-facebook);
+  }
+  to {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.disabledLabelTop {
+  top: -20px;
+  color: var(--color-yesbankGray);
+  font-size: 14px;
+}

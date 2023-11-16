@@ -1,0 +1,100 @@
+
+.parent {
+  position: relative;
+  margin-top: 15px;
+  background-color: hsl(0, 0%, 100%);
+    border-color: hsl(0, 0%, 80%);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.label {
+  padding: 6px 0 15px 0;
+  /* border-bottom: 2px solid black; */
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  /* background-image: url(images/Dropdown_form.svg); */
+  background-position-x: 99%;
+  background-position-y: 16px;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  min-height: 50px;
+  max-height: 200px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: white !important;
+  box-shadow: 0 2px 4px 0 grey;
+  overflow-y: unset;
+  z-index: 2;
+}
+
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.options:hover {
+  background-color: var(--color-dropDownHover);
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.iconsMargin {
+  margin-right: 10px;
+}
+
+.noOption {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkboxGroupStyle {
+  width: calc(100% - 20px); /* 20 px for left and right margin 10 each */
+  margin: 10px;
+  /* margin-top: 10px; */
+}
+
+.inputCheckBox {
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+  padding: 0 0 5px 0;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.placeHolder {
+  color: #9b9b9b;
+}
+
+@media (--for-mobile) {
+  .bodyContainer {
+    width: 92%;
+  }
+}
