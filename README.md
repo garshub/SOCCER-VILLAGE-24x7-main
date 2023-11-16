@@ -1,5 +1,3 @@
-Only one person has commited in the last week.  More attention to program, please.  mjf
-
 # Soccer Village 24x7
 
 SER-515 Group Project for Fall 2021
@@ -12,21 +10,16 @@ SER-515 Group Project for Fall 2021
     <td>Shubham Garg</td>
     <td>sgarg49@asu.edu</td>
   </tr>
-  <tr>
-    <td>Ujla Garg</td>
-    <td>ugarg2@asu.edu</td>
-  </tr>
-  <tr>
     <td>Ajitesh Singh</td>
-    <td>asing392@asu.edu</td>
+    <td></td>
   </tr>
   <tr>
     <td>Tanaya Sakhalkar</td>
-    <td>tsakhalk@asu.edu</td>
+    <td>/td>
   </tr>
   <tr>
     <td>Anushka Kanal</td>
-    <td>akanal1@asu.edu</td>
+    <td></td>
   </tr>
 </table>
 
@@ -43,7 +36,3 @@ https://app.getpostman.com/join-team?invite_code=8d4fd8351647775eb72a06f63b249d2
 ### Collection downloadable link
 
 https://www.getpostman.com/collections/3aacf65ab5fba3bc5c0e
-
-## Backend HOST URL
-
-https://ser515-backend.herokuapp.com/
