@@ -15,7 +15,7 @@ SER-515 Group Project for Fall 2021
   </tr>
   <tr>
     <td>Tanaya Sakhalkar</td>
-    <td>/td>
+    <td></td>
   </tr>
   <tr>
     <td>Anushka Kanal</td>
